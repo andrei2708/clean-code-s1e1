@@ -13,7 +13,7 @@ body {
 .todo-task img {
     width: 100%;
 }
-.todo-task .more-inf {
+.more-inf {
     font-family: fantasy, cursive;
 }
 
@@ -34,7 +34,7 @@ ul {
     margin:0;
     padding: 0px;
 }
-li, h3 {
+li {
     list-style:none;
 }
 input,button{
@@ -84,7 +84,7 @@ label[for='new-task'] {
     display: block;
     margin: 0 0 20px;
 }
-input#new-task {
+#new-task {
     width: 318px;
 }
 p > button:hover {
@@ -110,10 +110,10 @@ li > label {
     font-size: 18px;
     width: 226px;
 }
-li >    input[type="text"] {
+li > input[type="text"] {
     width: 226px
 }
-li > .delete-btn:hover {
+.delete-btn:hover {
     color: #cf2323;
 }
 .delete-btn img {
@@ -126,8 +126,8 @@ li > .delete-btn:hover {
 }
 
 /* Completed */
-ul#completed-tasks label {
-    text-decoration: line-through
+#completed-tasks label {
+    text-decoration: line-through;
     color: #888;
 }
 
