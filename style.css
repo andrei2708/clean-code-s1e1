@@ -18,7 +18,8 @@ body {
 }
 
 @media (max-width:768px) {
-.todo-task { text-align: center;
+.todo-task { 
+    text-align: center;
 }
 }
 .centered-main-page-element {
@@ -37,7 +38,8 @@ ul {
 li {
     list-style:none;
 }
-input,button{
+input,
+button{
     outline:none;
 }
 button {
@@ -136,11 +138,11 @@ ul li input[type=text] {
     display:none
 }
 
-ul li.edit-mode input[type=text] {
+.edit-mode input[type=text] {
     display:inline-block;
     width:209px
 }
 
-ul li.edit-mode label {
+.edit-mode label {
     display:none;
 }
