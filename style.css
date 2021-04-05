@@ -68,7 +68,7 @@ button:hover {
 }
 /* Heading */
 h3,
-.text-new-task {
+.new-item__name {
     color: #333;
     font-weight: 700;
     font-size: 15px;
@@ -96,7 +96,7 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-.text-new-task {
+.new-item__name {
     display: block;
     margin: 0 0 20px;
 }
@@ -105,7 +105,7 @@ input[type="text"]:focus {
     width: 316px;
 }
 
-.add-btn:hover {
+.new-item__btn:hover {
     color: #0fc57c;
 }
 
